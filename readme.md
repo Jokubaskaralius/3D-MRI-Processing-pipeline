@@ -11,25 +11,25 @@ config.json - configuration file to select transforms
 To run the processing pipeline:
 
 1. The project folder structure should be maintained
-   Project/
-   |-- data/
-   | |-- _data files_
-   |
-   |-- env/
-   | |-- _environment files_
-   |
-   |-- src/
-   | |-- _data files_
-   | | |-- dataset.py
-   | | |-- process.py
-   | | |-- transforms.py
-   | | |-- utils.py
-   | | |-- visual.py
-   | |  
-   |
-   |-- config.json
-   |-- requirements.txt
-   |-- README
+   Project/ <br />
+   |-- data/ <br />
+   | |-- _data files_ <br />
+   | <br />
+   |-- env/ <br />
+   | |-- _environment files_ <br />
+   | <br />
+   |-- src/ <br />
+   | |-- _data files_ <br />
+   | | |-- dataset.py <br />
+   | | |-- process.py <br />
+   | | |-- transforms.py <br />
+   | | |-- utils.py <br />
+   | | |-- visual.py <br />
+   | | <br />
+   | <br />
+   |-- config.json <br />
+   |-- requirements.txt <br />
+   |-- README <br />
 2. Download project source files
    The source files can be cloned or downloaded from:
    https://github.com/Jokubaskaralius/3D-MRI-Processing-pipeline

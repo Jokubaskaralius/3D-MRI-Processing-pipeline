@@ -1,0 +1,28 @@
+{
+    "verbose": "True",
+    "seed": 42,
+
+    "pathManager": {
+        "data_dir_name": "../data",
+        "visuals_dir_name": "visuals",
+        "data_class_name": "grade",
+        "modalities": ["T1-axial"],
+        "image_extension": ".nii.gz",
+        "proc_append_str": "_processed"
+    },
+
+    "datasetManager": {
+        "test":"test"
+    },
+
+    "transformManager": {
+        "transforms":[
+                      ["Registration", ["/home/jokubas/DevWork/MRI_processing_pipeline/data/template_image.nii.gz"]],
+                      ["FeatureScaling", ["MM"]],
+                      ["Crop", []],
+                      ["Resize", [[100, 100, 56]]],
+                      ["SkullStrip", []],
+                      ["GaussianBlur", []]
+                     ]
+    }
+}

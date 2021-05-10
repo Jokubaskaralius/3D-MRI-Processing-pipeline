@@ -30,17 +30,25 @@ To run the processing pipeline:
    |-- config.json
    |-- requirements.txt
    |-- README
+2. Download project source files
+   The source files can be cloned or downloaded from:
+   https://github.com/Jokubaskaralius/3D-MRI-Processing-pipeline
 
-2. Activate your python virtualenv
+3. Download the dataset and store it in the project folder
+   The dataset can be downloaded from:
+   https://www.kaggle.com/jokubaskaralius/3d-mri-t1we-brain-volumes
+   Place it according to staging step 1.
+
+4. Activate your python virtualenv
    Refer to creating a virtualenv and activating one
    https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/
    This step may be skipped if this project and dependencies are to be installed globally,
    however virtualenv is highly recommended.
 
-3. Install the project dependencies
+5. Install the project dependencies
    Execute command:
    pip install -r requirements.txt
 
-4. Run the process.py wrapper
+6. Run the process.py wrapper
    Execute command:
    python3 src/process.py
